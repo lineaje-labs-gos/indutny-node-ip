@@ -1,11 +1,11 @@
 {
   "name": "ip",
-  "version": "1.1.5",
+  "version": "1.1.5-lineaje-01",
   "author": "Fedor Indutny <fedor@indutny.com>",
   "homepage": "https://github.com/indutny/node-ip",
   "repository": {
     "type": "git",
-    "url": "http://github.com/indutny/node-ip.git"
+    "url": "https://github.com/lineaje-labs-gos/indutny-node-ip"
   },
   "main": "lib/ip",
   "devDependencies": {
@@ -17,5 +17,11 @@
     "test": "jscs lib/*.js test/*.js && jshint lib/*.js && mocha --reporter spec test/*-test.js",
     "fix": "jscs lib/*.js test/*.js --fix"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ]
 }
